@@ -1,0 +1,1171 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*=============== menu bar ===============*/
+.menu-index
+{
+    width: 5%;
+    float: left;
+    color : aliceblue;
+    font-size: 29px;
+    top: 80px;
+    border: 1px solid yellow;
+    box-shadow: 3px 1px 5px yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-left: 7px; 
+    position: fixed;
+}
+
+.menu-index a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-index a:hover
+{
+    color: pink;
+    text-shadow: 1px 1px 1px yellow;
+    font-size: 31px;
+}
+
+.menu-index:hover 
+{
+   box-shadow: 3px 1px 10px pink; 
+}
+
+
+
+
+
+
+
+
+
+
+/*==================== logo ====================*/
+
+.logo p
+{
+    text-align: center;
+    font-weight: 800;
+    font-family: Brush Script MT, cursive;
+    font-size: 50px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: aliceblue;
+}
+
+
+.logo-menus h1
+{
+    text-align: center;
+    font-weight: 800;
+    font-family: Brush Script MT, cursive;
+    font-size: 50px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: aliceblue;
+}
+
+
+.logo-menus p
+{
+   text-align: center;
+    font-weight: 800;
+    font-family: Brush Script MT, cursive;
+    font-size: 40px;
+    text-shadow: 0 0 3px #FF0000, 0 0 7px yellow;
+    color: aliceblue; 
+}
+
+
+
+
+
+/*==================== index =========================*/
+body.index
+{
+    background-color: #151515;
+}
+
+.index-content a
+{
+    text-decoration: none;
+    color: black;
+}
+.index-content
+{
+    height: auto;
+    width: 87%;
+    left: 7%;
+    position: absolute;
+    top: 130px;
+    background-image: url('images/bg-index-land5.jpg');
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    padding-bottom: 55px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+.index-content p
+{
+    mix-blend-mode: overlay;
+    
+}
+
+
+.index-starters
+{
+    border: 10px solid white;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-radius: 70%;
+    height: 150px;
+    color: black;
+    background-color: rgba(251, 255, 255, 0.4);    
+}
+
+.index-drinks
+{
+    border: 10px solid white;
+    width: 33%;
+    float: right;
+    text-align: center;
+    border-radius: 70%;
+    height: 150px;
+    color: black;
+    background-color: rgba(251, 255, 255, 0.4);
+}
+
+
+.index-main
+{
+    border: 10px solid white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 70%;
+    height: 200px;
+    color: black;
+    background-color: rgba(251, 255, 255, 0.4);
+    font-size: 60px;
+}
+ 
+
+
+.index-dessert
+{
+    border: 10px solid white;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-radius: 70%;
+    height: 150px;
+    color: black;
+    background-color: rgba(251, 255, 255, 0.4);
+}
+
+.index-sides
+{
+    border: 10px solid white;
+    width: 33%;
+    float: right;
+    text-align: center;
+    border-radius: 70%;
+    height: 150px;
+    color: black;
+    background-color: rgba(251, 255, 255, 0.4);
+}
+
+/*========== index hover effects ==========*/
+
+.index-content a:hover .index-sides
+{
+    border: 15px solid rgba(3, 255, 73, 0.8);
+    transform: rotate(360deg);
+    transition: 1s;
+    width: 40%;
+    height: 180px;
+
+}
+
+.index-content a:hover .index-dessert
+{
+    border: 15px solid rgba(222, 140, 206, 0.8);
+    transform: rotate(360deg);
+    transition: 1s;
+    width: 40%;
+    height: 180px;
+
+
+}
+
+ .index-content a:hover .index-starters
+{
+    border: 15px solid rgba(251, 255, 0, 0.8);
+    transform: rotate(360deg);
+    transition: 1s;
+    width: 40%;
+    height: 180px;
+
+
+}
+
+
+.index-content a:hover .index-drinks
+{
+    border: 15px solid rgba(0, 0, 255, 0.8);
+    transform: rotate(360deg);
+    transition: 1s;
+    width: 40%;
+    height: 180px;
+
+}
+
+.index-content a:hover .index-main
+{
+    color: rgba(126, 60, 12,0.8);
+    border: 15px solid rgba(126, 60, 12,0.8);
+    width: 60%;
+    height: 250px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================== Starters ====================*/
+
+body.starters
+{
+    background-color: #151515;
+}
+
+.starters-content
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 7%;
+    border: 5px dotted rgba(251, 255, 0, 0.8);
+    padding-bottom: 50px;
+    top:190px;
+    background-image: url('images/starters/front-starters.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.starters-content h3
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+/*========= starters vegan ==========*/
+.menu-starters-vegan
+{
+    position: relative;
+    display: block;
+    float: left;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px green;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-left: 3%;
+}
+
+.starters-vegan
+{
+    text-decoration: none;
+}
+
+a.starters-vegan
+{
+    background: rgba(0, 130, 0, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.starters-vegan:hover
+{
+    background: rgba(0, 130, 0, 0.7);
+}
+
+
+
+.starters-vegan img
+{
+    float: left;
+    
+}
+
+.starters-vegan i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 50px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.starters-vegan p
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: aliceblue;
+    
+}
+/*========= starts non vegan ==========*/
+
+
+.menu-starters-non-vegan
+{
+    position: relative;
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px red;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-right: 3%;
+}
+
+
+.starters-non-vegan
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+a.starters-non-vegan
+{
+    background: rgba(255, 0, 0, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.starters-non-vegan:hover
+{
+    background: rgba(255, 0, 0, 0.7);
+}
+
+
+.starters-non-vegan img
+{
+    float: left;
+    
+}
+
+.starters-non-vegan i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 55px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.starters-non-vegan p
+{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+/*==================== Mains ====================*/
+
+body.mains
+{
+    background-color: #151515;
+}
+
+
+
+.mains-content
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 7%;
+    border: 5px dotted rgba(126, 60, 12,1);
+    padding-bottom: 50px;
+    top:190px;
+    background-image: url('images/mains/front-main2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.mains-content h3
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+/*==================== Sides ====================*/
+
+body.sides
+{
+    background-color: #151515;
+}
+
+
+
+.sides-content
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 7%;
+    border: 5px dotted rgba(3, 255, 73,1);
+    padding-bottom: 50px;
+    top:190px;
+    background-image: url('images/sides/side-front.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.sides-content h3
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/*==================== Dessert ====================*/
+
+body.dessert
+{
+    background-color: #151515;
+}
+
+
+
+.dessert-content
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 7%;
+    border: 5px dotted rgba(222, 140, 206, 1);
+    padding-bottom: 50px;
+    top:190px;
+    background-image: url('images/dessert/front-dessert3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.dessert-content h3
+{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/*==================== Drinks ====================*/
+
+body.drinks
+{
+    background-color: #151515;
+}
+
+.drinks-content
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 7%;
+    border: 5px dotted rgba(0, 0, 255, 1);
+    padding-bottom: 50px;
+    top:190px;
+    background-image: url('images/drinks/coffee-front.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.drinks-content h3
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+/*========= Coffee ==========*/
+.menu-drinks-coffee
+{
+    position: relative;
+    display: block;
+    float: left;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px rgb(126, 60, 12);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-left: 3%;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.drinks-coffee
+{
+    text-decoration: none;
+}
+
+a.drinks-coffee
+{
+    background: rgba(126, 60, 12, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.drinks-coffee:hover
+{
+    background: rgba(126, 60, 12, 0.7);
+}
+
+
+
+.drinks-coffee img
+{
+    float: left;
+    
+}
+
+.drinks-coffee i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 55px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.drinks-coffee p
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: aliceblue;
+    
+}
+
+
+
+
+/*========= Milkshakes ==========*/
+
+
+.menu-drinks-milkshakes
+{
+    position: relative;
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px rgb(255,182,193);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-right: 3%;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+
+.drinks-milkshakes
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+a.drinks-milkshakes
+{
+    background: rgba(255,182,193, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.drinks-milkshakes:hover
+{
+    background: rgba(255,182,193, 0.7);
+}
+
+
+.drinks-milkshakes img
+{
+    float: left;
+    
+}
+
+.drinks-milkshakes i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 55px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.drinks-milkshakes p
+{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+
+/*========= Feezy ==========*/
+.menu-drinks-feezy
+{
+    position: relative;
+    display: block;
+    float: left;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px rgb(0, 130, 0);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-left: 3%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+        
+}
+
+.drinks-feezy
+{
+    text-decoration: none;
+}
+
+a.drinks-feezy
+{
+    background: rgba(0, 130, 0, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.drinks-feezy:hover
+{
+    background: rgba(0, 130, 0, 0.7);
+}
+
+
+
+.drinks-feezy img
+{
+    float: left;
+    
+}
+
+.drinks-feezy i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 55px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.drinks-feezy p
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: aliceblue;
+    
+}
+
+
+
+/*========= Juice ==========*/
+
+
+.menu-drinks-juice
+{
+    position: relative;
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 10px red;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-right: 3%;
+    margin-top: 300px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+
+.drinks-juice
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+a.drinks-juice
+{
+    background: rgba(255, 0, 0, 0.5);
+    width : 90%;
+    height: 105px;
+    display: block;
+    padding: 1px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+/*========== hover effect ========*/
+a.drinks-juice:hover
+{
+    background: rgba(255, 0, 0, 0.7);
+}
+
+
+.drinks-juice img
+{
+    float: left;
+    
+}
+
+.drinks-juice i
+{
+    float: right;
+    font-weight: 600;
+    font-size: 55px;
+    mix-blend-mode: overlay;
+    color: white;
+    margin-top: 25px;
+}
+ 
+.drinks-juice p
+{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+/*==================== About  ====================*/
+
+.content-about
+{
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px aliceblue;
+    border-radius: 30%;
+    
+}
+
+.content-about p
+{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: cursive;
+    text-align: center;
+}
+
+/*==================== Contacts ====================*/
+
+body.contacts
+{
+    background-color: #151515
+    
+}
+.contacts .content
+{
+    margin-top: 80px;
+    color           : yellow;
+    opacity         : 0.9;
+    font-size       : 20px;
+    background-color: dimgrey;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
+
+
+
+input{
+      width         : 80%;
+      height        : 25px;
+      margin        : 12px 0;
+      border        : 1px solid #929292;
+}
+
+textarea{
+      width         : 80%;
+      height        : 55px;
+      margin        : 12px 0;
+      border        : 1px solid #929292;
+}
+
+.button{
+      display         : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align      : center;
+      color          : white;
+      font-size      : 16px;
+      font-weight    : 600;
+      margin         : 12px 0;
+      padding        : 8px 0;
+      width          : 80%;
+      margin-left    : 10%;
+}
+
+
+
+
+
+
+
+
+
+/*==================== footer ====================*/
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: yellow;
+    font-weight: 400;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+/*===================== Responsive page ===================*/
+
+
+
+/*============= index ==========*/
+
+
+
+
+@media only screen and (max-width:590px)
+{
+    /*====== menu  ======*/
+    
+    .menu-index
+    {
+        width: 50px;
+        z-index: 2;
+    }
+    
+    
+    
+    /*====== index ======*/
+    .index-content
+    {
+        top: 190px;
+        height: 100%;
+        background-attachment: scroll;
+        background-size:contain; 
+        background-repeat: repeat-y;
+        font-size: 25px
+    }
+    
+    
+    .index-starters
+    {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .index-drinks
+    {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .index-dessert
+    {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .index-sides
+    {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*================= starters vegan ==================*/
+@media only screen and (max-width:1281px)
+{
+    
+    
+    
+    a.starters-vegan
+    {
+        height: 125px;
+    }
+}
+
+@media only screen and (max-width:1027px)
+{
+    
+    .menu-starters-vegan
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .menu-starters-non-vegan
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    
+    .menu-drinks-coffee
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .menu-drinks-milkshakes
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .menu-drinks-feezy
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .menu-drinks-juice
+    {
+        position: relative;
+        display: block;
+        float: none;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    
+    /*===== content adjust ====*/
+@media only screen and (max-width:553px)
+{
+    .starters-content
+    {
+       top: 240px; 
+    }
+    
+    .sides-content
+    {
+       top: 240px; 
+    }
+    
+    .mains-content
+    {
+       top: 240px; 
+    }
+    
+    .dessert-content
+    {
+       top: 240px; 
+    }
+    
+    .drinks-content
+    {
+       top: 240px; 
+    }
+    
+    
+    
+}
